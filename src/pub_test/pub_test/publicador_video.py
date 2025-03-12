@@ -23,7 +23,7 @@ class PublicadorVideo(Node):
         self.fps = self.cap.get(cv2.CAP_PROP_FPS)
         if self.fps <= 0:
             self.get_logger().warn("Não foi possível obter o FPS do vídeo. Usando 30 FPS como padrão.")
-            self.fps = 30  # FPS padrão caso não seja possível obter do vídeo
+            self.fps = 30 
 
      
         self.timer = self.create_timer(1.0 / self.fps, self.timer_callback)
