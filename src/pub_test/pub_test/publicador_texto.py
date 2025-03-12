@@ -7,7 +7,7 @@ class PublicadorTexto(Node):
     def __init__(self):
         super().__init__('publicador_texto')
         self.publisher_ = self.create_publisher(String, 'texto_topic', 10)
-        timer_period = 1.0  # Publica a cada 1 segundo
+        timer_period = 1.0  
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
