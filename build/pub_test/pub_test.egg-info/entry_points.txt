@@ -1,0 +1,4 @@
+[console_scripts]
+publicador_texto = pub_test.publicador_texto:main
+publicador_video = pub_test.publicador_video:main
+

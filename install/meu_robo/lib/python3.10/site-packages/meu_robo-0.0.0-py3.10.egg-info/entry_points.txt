@@ -1,0 +1,5 @@
+[console_scripts]
+controle = meu_robo.controle:main
+publicador_marcador = meu_robo.publicador_marcador:main
+publicador_urdf = meu_robo.publicador_urdf:main
+

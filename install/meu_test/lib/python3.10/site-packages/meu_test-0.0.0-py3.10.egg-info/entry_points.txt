@@ -1,0 +1,3 @@
+[console_scripts]
+move_listener = meu_test.move_listener:main
+
